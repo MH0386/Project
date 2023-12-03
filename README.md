@@ -1,9 +1,18 @@
-<img src="/Images/red.png" height="400" />
+<details>
+    <summary>
+        <h2>Final Design</h2>
+    </summary>
+    <div>
+        <img src="/Images/red.png" height="400"/>
+    </div>
+</details>
 
 ## Images
 
 <details>
-    <summary><h2>Design</h2></summary>
+    <summary>
+        <h2>Design</h2>
+    </summary>
     <div>
         <h3>Front View</h3>
         <img src="/Images/front-view.png" height="400"/>
