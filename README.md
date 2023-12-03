@@ -1,11 +1,11 @@
-<details>
+<details open>
     <summary>
         <h2>Final Design</h2>
     </summary>
     <div>
         <img src="/Images/red.png" height="400"/>
     </div>
-</details>
+</details open>
 
 <details>
     <summary>
