@@ -13,10 +13,10 @@
 ## Illustrations
 
 <p float="left">
-  <img src="/Illustrations/front-view.png" height="200" />
-  <img src="/Illustrations/back-view.png" height="200" />
-  <img src="/Illustrations/leg-components.png" height="200" />
-  <img src="/Illustrations/tibia-components.png" height="200" />
+  <img src="/Images/front-view.png" height="200" />
+  <img src="/Images/back-view.png" height="200" />
+  <img src="/Images/leg-components.png" height="200" />
+  <img src="/Images/tibia-components.png" height="200" />
 </p>
 
 ## About the STL files in this repository
@@ -28,15 +28,3 @@ I use the latest version of each part in my own hexapod, which is the one with t
 ## Compatible fan-made 3D printable parts
 
 Check out [this](https://github.com/almelnz2005/hexapod) repository which contains modified (but compatible) versions of the original parts which uses metal horns, M3 screws and seperated components to make the parts more 3D printer friendly. This is especially helpful if you are printing with material other than PLA and have issues with supports or shrinking.
-
-## Wiring Diagram
-
-- Pimoroni Servo2040 (The newer, simpler, cheaper and recommended option):<br>
-<img src="/wiring-diagram-servo2040.png" height="300" />
-
-- Pololu Maestro (The original, complicated, expensive and legacy option):<br>
-<img src="/wiring-diagram-pololu.png" height="300" />
-
-## Electronic Component Layout
-
-<img src="/component-layout.jpg" height="400" />
