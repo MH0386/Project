@@ -5,9 +5,9 @@
     <div>
         <img src="/Images/red.png" height="400"/>
     </div>
-</details open>
+</details>
 
-<details>
+<details open>
     <summary>
         <h2>Design</h2>
     </summary>
