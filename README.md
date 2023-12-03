@@ -1,6 +1,6 @@
 <details open>
     <summary>
-        <h2>Final Design</h2>
+        <h1>Final Design</h1>
     </summary>
     <div>
         <img src="/Images/red.png" height="400"/>
@@ -9,7 +9,7 @@
 
 <details open>
     <summary>
-        <h2>Design</h2>
+        <h1>Design</h1>
     </summary>
     <div>
         <h3>Front View</h3>
