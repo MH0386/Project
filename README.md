@@ -1,4 +1,4 @@
-<img src="/Images/red.png"/>
+<img src="/Images/red.png" height="400" />
 
 ## Images
 
@@ -6,7 +6,10 @@
   <img src="/Images/front-view.png" height="200" />
   <img src="/Images/back-view.png" height="200" />
   <img src="/Images/leg-components.png" height="200" />
+  <img src="/Images/leg.png" height="200" />
   <img src="/Images/tibia-components.png" height="200" />
+  <img src="/Images/servo_orientation.png" height="200" />
+  <img src="/Images/top.png" height="200" />
 </p>
 
 ## About the STL files in this repository
