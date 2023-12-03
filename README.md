@@ -7,8 +7,6 @@
     </div>
 </details>
 
-## Images
-
 <details>
     <summary>
         <h2>Design</h2>
