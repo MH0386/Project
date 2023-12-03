@@ -1,0 +1,16 @@
+3x left-coxa
+3x left-femur
+3x left-tibia
+3x right-coxa
+3x right-femur
+3x right-tibia
+
+18x servo-back-hole
+
+1x bottom-cover-flat
+1x frame
+1x top-cover
+
+6x shield
+6x micro-switch-tip
+6x tip
