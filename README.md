@@ -1,16 +1,6 @@
-##
+<img src="/Images/red.png"/>
 
-<img src="/Images/red.png" height="300" />
-
-## Some quick links to get you started
-
-- Watch the step by step build videos on my [YouTube channel](https://www.youtube.com/makeyourpet).<br>
-- For build questions and to connect with the community join my [Discord server](https://discord.gg/vb8YWMfBuk).<br>
-- A [wiring diagram](/wiring-diagram-servo2040.png) that you may find useful.<br>
-- A fan-made [parts list](https://docs.google.com/spreadsheets/d/1jLi3IdmLERsBDhjaqHxFGQgZul_3uq9oj55M1rFG8mY/edit#gid=0). Also another fan-made [parts list](https://docs.google.com/spreadsheets/d/1y--z7EeejWcb-8ooPaIFn3Hulu9dJOcoKyGoxGq8KI8/edit?usp=drivesdk). And here is a [third one](https://github.com/LonelyGhost6/Public/blob/main/part-list.pdf). These are not meant to be a complete list of EVERYTHING that you need, but they cover most of the important and pricier stuff.<br>
-- If you decide to use the Servo2040 board (highly recommended), find the [firmware](https://github.com/EddieCarrera/chica-servo2040-simpleDriver/releases/download/v0.0.1/chica-servo2040_release.uf2) and the [instructions on how to flash it](https://github.com/EddieCarrera/chica-servo2040-simpleDriver#loading-the-firmware-image) from Eddie's repository.<br>
-  
-## Illustrations
+## Images
 
 <p float="left">
   <img src="/Images/front-view.png" height="200" />
