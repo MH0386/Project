@@ -4,20 +4,34 @@
 
 <details>
     <summary><h2>Design</h2></summary>
-    <h3>Front View</h3>
-    <img src="/Images/front-view.png" height="400"/>
-    <h3>Back View</h3>
-    <img src="/Images/back-view.png" height="400"/>
-    <h3>Leg Components</h3>
-    <img src="/Images/leg-components.png" height="400" />
-    <h3>Leg Assembly</h3>
-    <img src="/Images/leg.png" height="400" />
-    <h3>Tibia Components</h3>
-    <img src="/Images/tibia-components.png" height="400" />
-    <h3>Servo Orientation</h3>
-    <img src="/Images/servo_orientation.png" height="400" />
-    <h3>Top View</h3>
-    <img src="/Images/top.png" height="400" />
+    <div>
+        <h3>Front View</h3>
+        <img src="/Images/front-view.png" height="400"/>
+    </div>
+    <div>
+        <h3>Back View</h3>
+        <img src="/Images/back-view.png" height="400"/>
+    </div>
+    <div>
+        <h3>Leg Components</h3>
+        <img src="/Images/leg-components.png" height="400"/>
+    </div>
+    <div>
+        <h3>Leg Assembly</h3>
+        <img src="/Images/leg.png" height="400"/>
+    </div>
+    <div>
+        <h3>Tibia Components</h3>
+        <img src="/Images/tibia-components.png" height="400"/>
+    </div>
+    <div>
+        <h3>Servo Orientation</h3>
+        <img src="/Images/servo_orientation.png" height="400"/>
+    </div>
+    <div>
+        <h3>Top View</h3>
+        <img src="/Images/top.png" height="400"/>
+    </div>
 </details>
 
 ## About the STL files in this repository
