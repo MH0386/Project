@@ -11,35 +11,36 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: Text('Robotics Project Group 17'),
+      title: 'Robotics Project Group 17',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a purple toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.grey),
         useMaterial3: true,
       ),
       home: const MyHomePage(
         title: 'Robotics Project Group 17',
+        upButton: IconButton(
+          icon: Icon(Icons.arrow_upward),
+          tooltip: 'Go ahead',
+          onPressed: null,
+          iconSize: 80,
+        ),
+        downButton: IconButton(
+          icon: Icon(Icons.arrow_downward),
+          tooltip: 'Go back',
+          onPressed: null,
+          iconSize: 80,
+        ),
       ),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
+  const MyHomePage(
+      {super.key,
+      required this.title,
+      required this.upButton,
+      required this.downButton});
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
@@ -51,20 +52,94 @@ class MyHomePage extends StatefulWidget {
   // always marked "final".
 
   final String title;
+  final IconButton upButton;
+  final IconButton downButton;
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+class NamesPage extends StatelessWidget {
+  const NamesPage({super.key});
 
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Names'),
+      ),
+      body: Center(
+        child: Table(
+          children: const [
+            TableRow(
+              children: [
+                Text('Mohamed Hisham '),
+                Text('20200483'),
+              ],
+            ),
+            TableRow(
+              children: [
+                Text('Yousef Mohamed '),
+                Text('20200669'),
+              ],
+            ),
+            TableRow(
+              children: [
+                Text('Abdelrahman Mostafa '),
+                Text('20200827'),
+              ],
+            ),
+            TableRow(
+              children: [
+                Text('Abdelrahman Amin '),
+                Text('20200311'),
+              ],
+            ),
+            TableRow(
+              children: [
+                Text('Hisham Helmy '),
+                Text('20200622'),
+              ],
+            ),
+            TableRow(
+              children: [
+                Text('Ahmed Nasser '),
+                Text('20200803'),
+              ],
+            ),
+            TableRow(
+              children: [
+                Text('Ziad Abdelshafy '),
+                Text('20200202'),
+              ],
+            ),
+            TableRow(
+              children: [
+                Text('Hamed Osama '),
+                Text('20200138'),
+              ],
+            ),
+            TableRow(
+              children: [
+                Text('Mohammed Abobakr '),
+                Text('20200421'),
+              ],
+            ),
+            TableRow(
+              children: [
+                Text('David Magdy '),
+                Text('20200171'),
+              ],
+            ),
+          ],
+          defaultColumnWidth: const IntrinsicColumnWidth(),
+        ),
+      ),
+    );
   }
+}
 
+class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -82,6 +157,18 @@ class _MyHomePageState extends State<MyHomePage> {
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.people),
+            tooltip: 'Names',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const NamesPage()),
+              );
+            },
+          ),
+        ],
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
@@ -102,21 +189,14 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
+            widget.upButton,
+            const SizedBox(
+              height: 100,
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
+            widget.downButton,
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
