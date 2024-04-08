@@ -1,5 +1,5 @@
 <details open>
-    <summary>
+     <summary>
         <h1>Final Design</h1>
     </summary>
     <div>
