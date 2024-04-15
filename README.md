@@ -1,7 +1,7 @@
 <details open>
      <summary>
         <h1>Final Design</h1>
-    </summary>
+     </summary>
     <div>
         <img src="/Images/red.png" height="400"/>
     </div>
