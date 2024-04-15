@@ -20,7 +20,7 @@
         <img src="/Images/back-view.png" height="400"/>
     </div>
     <div>
-        <h3>Leg Components</h3>
+        <h3>Leg Components  </h3>
         <img src="/Images/leg-components.png" height="400"/>
     </div>
     <div>
